@@ -1,8 +1,9 @@
 🎬 Disney+ Clone – React Full Stack Projekt
+
 Ein vollständiger Disney+ Clone, gebaut mit React, Redux und Firebase.
 Dieses Projekt wurde entwickelt, um moderne Webentwicklungs-Skills zu trainieren und ein realistisches Streaming-Interface nachzubilden.
 
-# ------- Features ------- #
+# Features #
 
 🚀 Features
 
@@ -14,7 +15,7 @@ Dieses Projekt wurde entwickelt, um moderne Webentwicklungs-Skills zu trainieren
 ✅ Watchlist-Funktion – Favoriten speichern
 ✅ Sauberes, modernes Disney+ UI-Design
 
-# ------- Technologien ------- #
+# Technologien #
 
 React – UI-Bibliothek
 Redux – State-Management
@@ -23,7 +24,7 @@ MongoDB – Optional für weitere Features / Server-Seite
 Styled Components / Tailwind CSS – Styling
 React Router – Navigation
 
-# ------- Projektstruktur ------- #
+# Projektstruktur #
 
 disneyplus-clone/
 ├── public/
@@ -38,26 +39,26 @@ disneyplus-clone/
 ├── package.json
 └── README.md
 
-# ------- Installation & Setup ------- #
+# Installation & Setup #
 
 ⚙️ Installation & Setup
 
 1. Repository klonen
-# git clone https://github.com/dein-nutzername/disneyplus-clone.git
-# cd disneyplus-clone
+- git clone https://github.com/dein-nutzername/disneyplus-clone.git
+- cd disneyplus-clone
 
 2. Dependencies installieren
-# npm install
+- npm install
 
 3. Firebase konfigurieren
 Erstelle ein Firebase-Projekt unter Firebase Console
 Kopiere deine Firebase-Konfigurationsdaten in src/firebase.js
 App starten
-# npm start
+- npm start
 
 Die App läuft jetzt auf http://localhost:3000 🎉
 
-# ------- Lizenz ------- #
+# Lizenz #
 
 📜 Lizenz
 Dieses Projekt ist unter der MIT Lizenz veröffentlicht.
