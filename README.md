@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+🎬 Disney+ Clone – React Full Stack Projekt
+Ein vollständiger Disney+ Clone, gebaut mit React, Redux und Firebase.
+Dieses Projekt wurde entwickelt, um moderne Webentwicklungs-Skills zu trainieren und ein realistisches Streaming-Interface nachzubilden.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ------- Features ------- #
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+✅ Benutzer-Authentifizierung (Login & Logout mit Firebase Auth)
+✅ Redux-Integration für globales State-Management
+✅ Responsives UI – optimiert für Desktop & Mobile
+✅ Dynamische Film- und Serienlisten (Daten aus einer Datenbank oder API)
+✅ Echtzeit-Datenbank mit Firebase Firestore
+✅ Watchlist-Funktion – Favoriten speichern
+✅ Sauberes, modernes Disney+ UI-Design
 
-### `npm start`
+# ------- Technologien ------- #
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React – UI-Bibliothek
+Redux – State-Management
+Firebase – Authentifizierung & Firestore-Datenbank
+MongoDB – Optional für weitere Features / Server-Seite
+Styled Components / Tailwind CSS – Styling
+React Router – Navigation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# ------- Projektstruktur ------- #
 
-### `npm test`
+disneyplus-clone/
+├── public/
+├── src/
+│   ├── components/
+│   ├── features/
+│   ├── hook/   #Fetch API Daten
+|   ├── app/
+│   ├── App.js
+│   ├── index.js
+│   └── firebase.js
+├── package.json
+└── README.md
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# ------- Installation & Setup ------- #
 
-### `npm run build`
+⚙️ Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Repository klonen
+# git clone https://github.com/dein-nutzername/disneyplus-clone.git
+# cd disneyplus-clone
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Dependencies installieren
+# npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Firebase konfigurieren
+Erstelle ein Firebase-Projekt unter Firebase Console
+Kopiere deine Firebase-Konfigurationsdaten in src/firebase.js
+App starten
+# npm start
 
-### `npm run eject`
+Die App läuft jetzt auf http://localhost:3000 🎉
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# ------- Lizenz ------- #
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📜 Lizenz
+Dieses Projekt ist unter der MIT Lizenz veröffentlicht.
+Du kannst den Code frei nutzen, anpassen und erweitern.
