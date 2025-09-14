@@ -62,23 +62,23 @@ function Header() {
                             <img src="/images/home-icon.svg" alt="Home" />
                             <span>Home</span>
                         </a>
-                        <a>
+                        <a href="/home">
                             <img src="/images/search-icon.svg" alt="Home" />
                             <span>Search</span>
                         </a>
-                        <a>
+                        <a href="/home">
                             <img src="/images/watchlist-icon.svg" alt="Home" />
                             <span>Watchlist</span>
                         </a>
-                        <a>
+                        <a href="/home">
                             <img src="/images/original-icon.svg" alt="Home" />
                             <span>Originals</span>
                         </a>
-                        <a>
+                        <a href="/home">
                             <img src="/images/movie-icon.svg" alt="Home" />
                             <span>Movies</span>
                         </a>
-                        <a>
+                        <a href="/home">
                             <img src="/images/series-icon.svg" alt="Home" />
                             <span>Series</span>
                         </a>
